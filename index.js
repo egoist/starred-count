@@ -3,7 +3,9 @@ const got = require('got')
 const parse = require('parse-link-header')
 
 /**
- * @param
+ * @param {string} username - GitHub username
+ * @param {string} access_token - GitHub privatel token
+ * @returns {Promise<Number>} A Promise to resolve the starred count
  */
 module.exports = function (username, token) {
   if (!username || typeof username !== 'string') {
