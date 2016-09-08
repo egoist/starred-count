@@ -4,7 +4,7 @@ const parse = require('parse-link-header')
 
 /**
  * @param {string} username - GitHub username
- * @param {string} access_token - GitHub privatel token
+ * @param {string} access_token - GitHub private token
  * @returns {Promise<Number>} A Promise to resolve the starred count
  */
 module.exports = function (username, token) {
