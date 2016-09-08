@@ -1,0 +1,36 @@
+{
+  "name": "starred-count",
+  "version": "0.0.0",
+  "description": "Get total starred count for a GitHub user.",
+  "license": "MIT",
+  "repository": "egoist/starred-count",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": " ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "ava": "latest",
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "dependencies": {
+    "got": "^6.3.0",
+    "parse-link-header": "^0.4.1"
+  }
+}
