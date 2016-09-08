@@ -1,6 +1,6 @@
 {
   "name": "starred-count",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get total starred count for a GitHub user.",
   "license": "MIT",
   "repository": "egoist/starred-count",
