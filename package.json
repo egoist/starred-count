@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": " ava"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -27,7 +27,10 @@
   },
   "xo": {
     "semicolon": false,
-    "space": 2
+    "space": 2,
+    "rules": {
+      "camelcase": 0
+    }
   },
   "dependencies": {
     "got": "^6.3.0",
